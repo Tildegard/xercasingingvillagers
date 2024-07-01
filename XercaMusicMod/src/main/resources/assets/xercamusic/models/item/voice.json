@@ -1,1 +1,6 @@
-a
+{
+  "parent": "xercamusic:item/instrument",
+    "textures": {
+        "layer0": "xercamusic:item/instruments/flute"
+    }
+}
