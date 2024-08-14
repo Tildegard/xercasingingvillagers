@@ -45,6 +45,7 @@ public class SoundEvents {
     public static ArrayList<IItemInstrument.Pair<Integer, SoundEvent>> redstone_guitars;
     public static ArrayList<IItemInstrument.Pair<Integer, SoundEvent>> french_horns;
     public static ArrayList<IItemInstrument.Pair<Integer, SoundEvent>> bass_guitars;
+    public static ArrayList<IItemInstrument.Pair<Integer, SoundEvent>> voices;
 
     private static SoundEvent createSoundEvent(String soundName, final RegisterEvent event) {
         final ResourceLocation soundID = new ResourceLocation(XercaMusic.MODID, soundName);
@@ -87,6 +88,7 @@ public class SoundEvents {
             redstone_guitars = new ArrayList<>(11);
             french_horns = new ArrayList<>(11);
             bass_guitars = new ArrayList<>(8);
+            voices = new ArrayList<>(48);
 
             for (int i = 21; i <= 116; i++) {
                 addSound(drum_kits, "drum_kit", i, event);
@@ -343,6 +345,22 @@ public class SoundEvents {
             addSound(bass_guitars, "bass_guitar", 63, event);
             addSound(bass_guitars, "bass_guitar", 69, event);
             addSound(bass_guitars, "bass_guitar", 75, event);
+
+            addSound(voices, "voice", 35, event);
+            addSound(voices, "voice", 41, event);
+            addSound(voices, "voice", 51, event);
+            addSound(voices, "voice", 61, event);
+            addSound(voices, "voice", 63, event);
+            addSound(voices, "voice", 65, event);
+            addSound(voices, "voice", 68, event);
+            addSound(voices, "voice", 73, event);
+            addSound(voices, "voice", 76, event);
+            addSound(voices, "voice", 78, event);
+            addSound(voices, "voice", 80, event);
+            addSound(voices, "voice", 85, event);
+            addSound(voices, "voice", 88, event);
+            addSound(voices, "voice", 90, event);
+            addSound(voices, "voice", 100, event);
         }
     }
 
@@ -367,6 +385,7 @@ public class SoundEvents {
         ((IItemInstrument)Items.REDSTONE_GUITAR.get()).setSounds(redstone_guitars);
         ((IItemInstrument)Items.FRENCH_HORN.get()).setSounds(french_horns);
         ((IItemInstrument)Items.BASS_GUITAR.get()).setSounds(bass_guitars);
+        ((IItemInstrument)Items.VOICE.get()).setSounds(voices);
 
         Items.HARP_MC.get().setSounds(harp_mcs);
     }

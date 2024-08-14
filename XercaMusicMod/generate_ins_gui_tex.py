@@ -15,6 +15,7 @@ instruments = [
     "flute",
     "saxophone",
     "god",
+    "voice",
 ]
 
 output_img = "src/main/resources/assets/xercamusic/textures/gui/instruments.png"

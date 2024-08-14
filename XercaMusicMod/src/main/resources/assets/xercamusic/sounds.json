@@ -401,5 +401,22 @@
   "bass_guitar57": {"category": "player", "sounds": [{"name": "xercamusic:bass_guitar/bass_guitar57", "attenuation_distance": 48}]},
   "bass_guitar63": {"category": "player", "sounds": [{"name": "xercamusic:bass_guitar/bass_guitar63", "attenuation_distance": 48}]},
   "bass_guitar69": {"category": "player", "sounds": [{"name": "xercamusic:bass_guitar/bass_guitar69", "attenuation_distance": 48}]},
-  "bass_guitar75": {"category": "player", "sounds": [{"name": "xercamusic:bass_guitar/bass_guitar75", "attenuation_distance": 48}]}
+  "bass_guitar75": {"category": "player", "sounds": [{"name": "xercamusic:bass_guitar/bass_guitar75", "attenuation_distance": 48}]},
+
+  "voice35": {"category": "player","sounds": [{"name": "xercamusic:flute/voice35", "attenuation_distance": 48}]},
+  "voice41": {"category": "player","sounds": [{"name": "xercamusic:flute/voice41", "attenuation_distance": 48}]},
+  "voice51": {"category": "player","sounds": [{"name": "xercamusic:flute/voice51", "attenuation_distance": 48}]},
+  "voice61": {"category": "player","sounds": [{"name": "xercamusic:flute/voice61", "attenuation_distance": 48}]},
+  "voice63": {"category": "player","sounds": [{"name": "xercamusic:flute/voice63", "attenuation_distance": 48}]},
+  "voice65": {"category": "player","sounds": [{"name": "xercamusic:flute/voice65", "attenuation_distance": 48}]},
+  "voice68": {"category": "player","sounds": [{"name": "xercamusic:flute/voice68", "attenuation_distance": 48}]},
+  "voice73": {"category": "player","sounds": [{"name": "xercamusic:flute/voice73", "attenuation_distance": 48}]},
+  "voice76": {"category": "player","sounds": [{"name": "xercamusic:flute/voice76", "attenuation_distance": 48}]},
+  "voice78": {"category": "player","sounds": [{"name": "xercamusic:flute/voice78", "attenuation_distance": 48}]},
+  "voice80": {"category": "player","sounds": [{"name": "xercamusic:flute/voice80", "attenuation_distance": 48}]},
+  "voice85": {"category": "player","sounds": [{"name": "xercamusic:flute/voice85", "attenuation_distance": 48}]},
+  "voice88": {"category": "player","sounds": [{"name": "xercamusic:flute/voice88", "attenuation_distance": 48}]},
+  "voice90": {"category": "player","sounds": [{"name": "xercamusic:flute/voice90", "attenuation_distance": 48}]},
+  "voice100": {"category": "player","sounds": [{"name": "xercamusic:flute/voice100", "attenuation_distance": 48}]}
+
 }

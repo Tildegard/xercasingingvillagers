@@ -41,6 +41,7 @@ public final class Items {
     public static final RegistryObject<Item> REDSTONE_GUITAR = ITEMS.register( "redstone_guitar", () -> new ItemInstrument(true, 16,0, 5));
     public static final RegistryObject<Item> FRENCH_HORN = ITEMS.register( "french_horn", () -> new ItemInstrument(true, 17,0, 5));
     public static final RegistryObject<Item> BASS_GUITAR = ITEMS.register( "bass_guitar", () -> new ItemInstrument(false, 18,1, 4));
+    public static final RegistryObject<Item> VOICE = ITEMS.register( "voice", () -> new ItemInstrument(true, 19, 1, 6));
 
     public static final RegistryObject<Item> MUSIC_BOX = ITEMS.register("music_box", () -> new BlockItem(Blocks.MUSIC_BOX.get(), new Item.Properties()));
     public static final RegistryObject<Item> METRONOME = ITEMS.register("metronome", () -> new BlockItem(Blocks.BLOCK_METRONOME.get(), new Item.Properties()));
@@ -71,6 +72,7 @@ public final class Items {
                 output.accept(BASS_GUITAR.get());
                 output.accept(MUSIC_BOX.get());
                 output.accept(METRONOME.get());
+                output.accept(VOICE.get());
             }).build());
 
     public static IItemInstrument[] instruments;
@@ -99,7 +101,8 @@ public final class Items {
                 (IItemInstrument)OBOE.get(),
                 (IItemInstrument)REDSTONE_GUITAR.get(),
                 (IItemInstrument)FRENCH_HORN.get(),
-                (IItemInstrument)BASS_GUITAR.get()
+                (IItemInstrument)BASS_GUITAR.get(),
+                (IItemInstrument)VOICE.get()
         };
     }
 }
